@@ -9,7 +9,9 @@
 #include <limits.h>
 #include <string.h>
 
-
+/*
+* Función que obtiene la carpeta actual
+*/
 char* get_current_folder(void) {
     char temp[PATH_MAX];
     if (getcwd(temp, sizeof(temp)) == NULL) {
