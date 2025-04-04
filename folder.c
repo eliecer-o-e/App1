@@ -9,13 +9,14 @@
 #include <limits.h>
 #include <string.h>
 
+
 char* get_current_folder(void) {
     char temp[PATH_MAX];
     if (getcwd(temp, sizeof(temp)) == NULL) {
         return NULL;
     }
 
-    // Copiar a memoria dinámica
+    // Copiar a memoria dinámica.
     char* result = malloc(strlen(temp) + 1);
     if (result != NULL) {
         strcpy(result, temp);
