@@ -1,0 +1,1 @@
+svoid dms(FILE* file,int lines);

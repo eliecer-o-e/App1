@@ -1,0 +1,1 @@
+void pls(FILE* file, int lines);

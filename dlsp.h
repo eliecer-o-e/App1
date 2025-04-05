@@ -1,0 +1,1 @@
+void dlsp(FILE* file,int lines);

@@ -1,0 +1,1 @@
+void ism(FILE* file,int lines);

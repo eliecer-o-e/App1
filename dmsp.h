@@ -1,0 +1,1 @@
+void dmsp(FILE* file,int lines);

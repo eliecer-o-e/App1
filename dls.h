@@ -1,0 +1,1 @@
+void dls(FILE* file,int lines);

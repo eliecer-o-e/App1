@@ -1,0 +1,1 @@
+void hp(FILE* file,int lines);

@@ -1,0 +1,1 @@
+void pms(FILE* file,int lines);

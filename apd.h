@@ -1,0 +1,1 @@
+void apd(FILE* file,int lines);
