@@ -16,7 +16,7 @@ SRCS = $(wildcard $(SRC_DIR)/*.c)
 OBJS = $(patsubst %.c, $(BUILD_DIR)/%.o, $(notdir $(SRCS)))
 
 # Nombre del ejecutable
-TARGET = $(BIN_DIR)/app
+TARGET = $(BIN_DIR)/app1
 
 # Regla por defecto
 all:	$(TARGET)

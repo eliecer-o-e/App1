@@ -1,5 +1,6 @@
 
 #include <stdio.h>
+#include <string.h>
 #include "pms.h"
 #include "pls.h"
 #include "dms.h"
@@ -10,6 +11,7 @@
 #include "apd.h"
 #include "ims.h"
 #include "hp.h"
+#include "definitions.h"
 
 int rows_numbers(FILE* file)
 {
@@ -48,7 +50,7 @@ int main(int argc, char *argv[]){
     for(int n = 2; n < argc; n++)
     {
         char* function = argv[n];
-        for(int i = 0; i < metricas; i++)
+        for(int i = 0; i < nro_metricas; i++)
         {
             if (strcmp(function, metricas[i]) == 0)
             {
